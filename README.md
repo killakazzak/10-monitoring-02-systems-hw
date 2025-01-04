@@ -327,7 +327,12 @@ cron - расписание
 ```
 
 ```json
-
+{"timestamp": 1736010236, "cpu_usage": 83022910, "memory_used": 1798256, "memory_total": 1870164, "disk_used": 28542308352, "disk_total": 42093166592, "container_count": 2, "uptime": 841137.13}
+{"timestamp": 1736010238, "cpu_usage": 83023078, "memory_used": 1798256, "memory_total": 1870164, "disk_used": 28542312448, "disk_total": 42093166592, "container_count": 2, "uptime": 841138.83}
+{"timestamp": 1736010296, "cpu_usage": 83028838, "memory_used": 1794816, "memory_total": 1870164, "disk_used": 28542443520, "disk_total": 42093166592, "container_count": 2, "uptime": 841197.19}
+{"timestamp": 1736010305, "cpu_usage": 83029660, "memory_used": 1794816, "memory_total": 1870164, "disk_used": 28542504960, "disk_total": 42093166592, "container_count": 2, "uptime": 841205.5}
+{"timestamp": 1736013669, "cpu_usage": 83361685, "memory_used": 1784664, "memory_total": 1870164, "disk_used": 28465197056, "disk_total": 42093166592, "container_count": 2, "uptime": 844569.54}
+```
 
 2. В веб-интерфейсе откройте вкладку `Dashboards`. Попробуйте создать свой dashboard с отображением:
 
