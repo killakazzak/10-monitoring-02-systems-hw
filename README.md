@@ -245,6 +245,9 @@ SLA = summ_2xx_requests / summ_all_requests
 
 P.S.: если при запуске некоторые контейнеры будут падать с ошибкой - проставьте им режим `Z`, например
 `./data:/var/lib:Z`
+
+![image](https://github.com/user-attachments/assets/7492145c-8dbe-4ae4-8b11-0bf876ca69ff)
+
 #
 8. Перейдите в веб-интерфейс Chronograf (http://localhost:8888) и откройте вкладку Data explorer.
         
