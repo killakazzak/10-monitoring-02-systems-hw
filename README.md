@@ -216,6 +216,27 @@ SLA = summ_2xx_requests / summ_all_requests
     - Zabbix
     - VictoriaMetrics
     - Nagios
+
+### Классификация систем мониторинга по моделям сбора данных
+
+### Push и Pull модели
+
+| Система        | Модель         |
+|----------------|----------------|
+| Prometheus     | Pull           |
+| TICK           | Гибридная      |
+| Zabbix         | Гибридная      |
+| VictoriaMetrics | Pull           |
+| Nagios         | Pull           |
+
+### Описание моделей
+
+- **Prometheus**: использует pull модель, запрашивая метрики у целевых систем через HTTP.
+- **TICK**: гибридная модель, так как Telegraf может работать как в режиме push, так и в режиме pull.
+- **Zabbix**: гибридная модель, поддерживающая как push, так и pull методы сбора данных.
+- **VictoriaMetrics**: в основном использует pull модель, но также поддерживает push через интеграции.
+- **Nagios**: использует pull модель, запрашивая данные у целевых систем через плагины.
+
 #
 7. Склонируйте себе [репозиторий](https://github.com/influxdata/sandbox/tree/master) и запустите TICK-стэк, 
 используя технологии docker и docker-compose.
